@@ -1,0 +1,198 @@
+/* Variables */
+:root {
+  --dark-green: #2c5e1a;
+  --medium-green: #4a8f29;
+  --light-green: #7bc043;
+  --very-light-green: #e6f3e1;
+  --white: #ffffff;
+  --gray: #f0f0f0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--very-light-green);
+  color: var(--dark-green);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--dark-green);
+  color: var(--white);
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Main Content Styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.analyzer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.webcam-section,
+.upload-section {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.webcam-section:hover,
+.upload-section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: var(--medium-green);
+  margin-top: 0;
+}
+
+/* Button Styles */
+.action-button,
+.file-upload-label {
+  background-color: var(--medium-green);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  margin: 5px 0;
+}
+
+.action-button:hover,
+.file-upload-label:hover {
+  background-color: var(--dark-green);
+}
+
+.action-button:disabled {
+  background-color: var(--gray);
+  cursor: not-allowed;
+}
+
+/* File Upload Styles */
+#imageUpload {
+  display: none;
+}
+
+.file-upload-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#fileName {
+  font-size: 0.9em;
+  color: var(--medium-green);
+}
+
+/* Result Container Styles */
+.result-container {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  min-height: 100px;
+  transition: all 0.3s ease;
+}
+
+.result-container h3 {
+  color: var(--medium-green);
+  margin-top: 0;
+}
+
+.result-container h4 {
+  color: var(--dark-green);
+  margin-bottom: 5px;
+}
+
+.result-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.result-container li {
+  margin-bottom: 5px;
+}
+
+#harmfulResults, #ayurvedicResults, #beneficialResults {
+  margin-bottom: 20px;
+}
+
+/* Video and Canvas Styles */
+#video, #canvas {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--dark-green);
+  color: var(--white);
+  text-align: center;
+  padding: 10px 0;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.result-container:not(:empty) {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .analyzer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .webcam-section,
+  .upload-section {
+      width: 90%;
+  }
+}

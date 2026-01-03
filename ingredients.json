@@ -1,0 +1,239 @@
+{
+  "harmful": [
+    "parabens",
+    "phthalates",
+    "formaldehyde",
+    "triclosan",
+    "oxybenzone",
+    "bha",
+    "bht",
+    "coal tar",
+    "dea",
+    "mea",
+    "hydroquinone",
+    "methylisothiazolinone",
+    "sodium lauryl sulfate",
+    "retinyl palmitate",
+    "petroleum",
+    "mineral oil",
+    "propylene glycol",
+    "sodium laureth sulfate",
+    "toluene",
+    "synthetic fragrance",
+    "ethanolamines",
+    "benzophenone",
+    "diethanolamine",
+    "triethanolamine",
+    "lead acetate",
+    "phenoxyethanol",
+    "silicones",
+    "sulfates",
+    "butylated hydroxytoluene",
+    "butylated hydroxyanisole",
+    "p-phenylenediamine",
+    "quaternium-15",
+    "chlorphenesin",
+    "methylparaben",
+    "ethylparaben",
+    "propylparaben",
+    "butylparaben",
+    "isobutylparaben",
+    "isopropylparaben",
+    "dioxane",
+    "talc",
+    "polyethylene glycol",
+    "methoxycinnamate",
+    "octinoxate",
+    "octocrylene",
+    "dibutyl phthalate",
+    "sodium tallowate",
+    "quaternary ammonium compounds",
+    "ethylenediaminetetraacetic acid",
+    "paraffin wax",
+    "ethoxylated surfactants",
+    "microbeads",
+    "nanoparticles",
+    "artificial dyes",
+    "benzyl benzoate",
+    "resorcinol",
+    "carbon black",
+    "trisiloxane",
+    "dimethicone copolyol"
+  ],
+  "beneficial": [
+    {
+      "commercial": "hyaluronic acid",
+      "chemical": "sodium hyaluronate"
+    },
+    {
+      "commercial": "vitamin C",
+      "chemical": "ascorbic acid"
+    },
+    {
+      "commercial": "vitamin E",
+      "chemical": "tocopherol"
+    },
+    {
+      "commercial": "niacinamide",
+      "chemical": "nicotinamide"
+    },
+    {
+      "commercial": "glycerin",
+      "chemical": "glycerol"
+    },
+    {
+      "commercial": "ceramides",
+      "chemical": "n-stearoyl sphinganine"
+    },
+    {
+      "commercial": "salicylic acid",
+      "chemical": "2-hydroxybenzoic acid"
+    },
+    {
+      "commercial": "alpha-hydroxy acids",
+      "chemical": "glycolic acid"
+    },
+    {
+      "commercial": "retinol",
+      "chemical": "vitamin a1"
+    },
+    {
+      "commercial": "peptides",
+      "chemical": "amino acid chains"
+    },
+    {
+      "commercial": "coenzyme Q10",
+      "chemical": "ubiquinone"
+    },
+    {
+      "commercial": "squalane",
+      "chemical": "2,6,10,15,19,23-hexamethyltetracosane"
+    },
+    {
+      "commercial": "allantoin",
+      "chemical": "5-ureidohydantoin"
+    },
+    {
+      "commercial": "panthenol",
+      "chemical": "provitamin b5"
+    },
+    {
+      "commercial": "resveratrol",
+      "chemical": "3,5,4-trihydroxy-trans-stilbene"
+    }
+  ],
+  "ayurvedic": [
+    {
+      "common": "ashwagandha",
+      "scientific": "withania somnifera"
+    },
+    {
+      "common": "turmeric",
+      "scientific": "curcuma longa"
+    },
+    {
+      "common": "ginger",
+      "scientific": "zingiber officinale"
+    },
+    {
+      "common": "neem",
+      "scientific": "azadirachta indica"
+    },
+    {
+      "common": "triphala",
+      "scientific": "combination of three fruits"
+    },
+    {
+      "common": "amla",
+      "scientific": "phyllanthus emblica"
+    },
+    {
+      "common": "tulsi",
+      "scientific": "ocimum sanctum"
+    },
+    {
+      "common": "brahmi",
+      "scientific": "bacopa monnieri"
+    },
+    {
+      "common": "shatavari",
+      "scientific": "asparagus racemosus"
+    },
+    {
+      "common": "guduchi",
+      "scientific": "tinospora cordifolia"
+    },
+    {
+      "common": "licorice",
+      "scientific": "glycyrrhiza glabra"
+    },
+    {
+      "common": "cardamom",
+      "scientific": "elettaria cardamomum"
+    },
+    {
+      "common": "cinnamon",
+      "scientific": "cinnamomum verum"
+    },
+    {
+      "common": "cumin",
+      "scientific": "cuminum cyminum"
+    },
+    {
+      "common": "fenugreek",
+      "scientific": "trigonella foenum-graecum"
+    },
+    {
+      "common": "boswellia",
+      "scientific": "boswellia serrata"
+    },
+    {
+      "common": "guggul",
+      "scientific": "commiphora wightii"
+    },
+    {
+      "common": "haritaki",
+      "scientific": "terminalia chebula"
+    },
+    {
+      "common": "bibhitaki",
+      "scientific": "terminalia bellirica"
+    },
+    {
+      "common": "jatamansi",
+      "scientific": "nardostachys jatamansi"
+    },
+    {
+      "common": "manjistha",
+      "scientific": "rubia cordifolia"
+    },
+    {
+      "common": "mustard",
+      "scientific": "brassica juncea"
+    },
+    {
+      "common": "pippali",
+      "scientific": "piper longum"
+    },
+    {
+      "common": "shankhpushpi",
+      "scientific": "convolvulus pluricaulis"
+    },
+    {
+      "common": "shilajit",
+      "scientific": "asphaltum"
+    },
+    {
+      "common": "vidari",
+      "scientific": "pueraria tuberosa"
+    },
+    {
+      "common": "aloe vera",
+      "scientific": "aloe barbadensis miller"
+    },
+    {
+      "common": "bhringraj",
+      "scientific": "eclipta alba"
+    }
+  ]
+}
